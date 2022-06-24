@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="signup.css">
+        
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Login</h2>
+            </div>
+            <form action="/search" class="form" id="form">
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input type="text" name="Name" id="username" placeholder="Enter your fullname" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Msg</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="Email" name="Email" id="email" placeholder="Enter your Email" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Msg</small>
+                </div>
+                
+                
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="Password" name="pass" id="password" placeholder="Enter your Password">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Msg</small>
+                </div>
+                <br>
+                <input type="checkbox" name="remember" id="myCheck" autocomplete="off"> Remember me
+
+                <input type="submit" value="Submit" class="btn" name="Button">
+            </form>
+        </div>
